@@ -60,6 +60,7 @@ public class StoreCredit {
 				temp = indexes[i];
 				indexes[i] = indexes[j];
 				indexes[j] = temp;
+				i++; j--;
 			}
 		}
 		array[hi] = array[i]; // reposicionar o pivô
@@ -74,10 +75,10 @@ public class StoreCredit {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//		String input_file = "A-small-practice.in";
-//		String output_file = "A-small-practice.out";
-		String input_file = "A-large-practice.in";
-		String output_file = "A-large-practice.out";
+		String input_file = "A-small-practice.in";
+		String output_file = "A-small-practice.out";
+//		String input_file = "A-large-practice.in";
+//		String output_file = "A-large-practice.out";
 		
 		try {
 			// Read input file
